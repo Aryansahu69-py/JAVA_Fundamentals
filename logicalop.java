@@ -10,7 +10,8 @@ public class logicalop {
         System.out.println(a + " " + b);
         System.out.println(a++ > 12 && b++ >= 22); 
         /* here Second Statement run due to OR operator which runs both the 
-        statement for verification */
+        statement for verification but if OR finds first statement true then it will 
+        also do not check the Second statement */
         System.out.println(a + " " + b);
 
     }
