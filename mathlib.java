@@ -12,8 +12,7 @@ public class mathlib {
         System.out.println(Math.ceil(2.45));//Gives the upper value in float
         System.out.println(2.45);//Gives the Round value in Integer
         System.out.println(Math.pow(2, 3)); // give the a raise to power b
-        System.out.println(Math.sqrt(2.35)); 
-        System.out.println(Math.cbrt(8));
+        
     }
     
 }
