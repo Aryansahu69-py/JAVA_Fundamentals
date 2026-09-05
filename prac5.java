@@ -14,7 +14,7 @@ public class prac5 {
                 double b = a-(a*0.05);
                 System.out.println("So your Final Amount is " + b );
             }
-         }else{
+         }else if (a>=7001){
             if ( a>7001 && a<=9000){
                 System.out.println("Your discount will be of 10%");
                 double c = a-(a*0.1);
@@ -25,7 +25,9 @@ public class prac5 {
                 double d = a-(a*0.2);
                 System.out.println("So your Final Amount is " + d);
             }
-         }
+         }else
+            System.out.println("Invalid Input");
+         
     }
     
 }
